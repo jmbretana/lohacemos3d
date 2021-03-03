@@ -692,7 +692,7 @@ section {
 .services .icon-box .icon {
 	width: 64px;
 	height: 64px;
-	background: #5e2a11;
+	background: #65c4da;
 	border-radius: 50px;
 	display: flex;
 	align-items: center;
@@ -1489,7 +1489,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-	background: #0f0f0f;
+	background: #65c4da;
 	color: #fff;
 	font-size: 14px;
 	text-align: center;
