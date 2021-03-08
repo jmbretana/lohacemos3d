@@ -1558,3 +1558,25 @@ section {
 #footer .credits a:hover {
 	color: #5e2a11;
 }
+
+.back-whatsapp {
+	cursor: pointer;
+	position: fixed;
+	background: #04d643;
+	color: #fff;
+	width: 100px;
+	text-align: center;
+	font-size: 1.3em;
+	border-radius: 5px;
+	right: 15px;
+	bottom: 75px;
+	z-index: 11;
+	vertical-align: middle;
+	padding: 5px 0 10px 0;
+}
+.back-whatsapp:hover {
+	color: #12973a;
+}
+.back-whatsapp i {
+	color: #fff;
+}
