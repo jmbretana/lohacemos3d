@@ -9,7 +9,9 @@
 # General
 --------------------------------------------------------------*/
 
-/* Color Celeste: #65C4da */
+/* 	Color Celeste: 	#65C4da 
+	Color Marron: 	#5e2a11
+*/
 
 body {
 	font-family: "Open Sans", sans-serif;
@@ -232,7 +234,7 @@ h6 {
 	height: 2px;
 	bottom: -2px;
 	left: 0;
-	background-color: #5e2a11;
+	background-color: #65c4da;
 	visibility: hidden;
 	width: 0px;
 	transition: all 0.3s ease-in-out 0s;
@@ -463,7 +465,7 @@ h6 {
 }
 
 #hero h2 {
-	color: #eee;
+	color: #5e2a11;
 	margin-bottom: 40px;
 	font-size: 24px;
 }
