@@ -979,15 +979,18 @@ section {
 .portfolio .portfolio-item .portfolio-info .details-link {
 	position: absolute;
 	right: 50px;
-	font-size: 24px;
+	font-size: 20px;
 	top: calc(50% - 18px);
-	color: white;
+	color: #000;
 	transition: ease-in-out 0.3s;
+	background: #fff;
+	border-radius: 1em;
+	padding: 0 5px;
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-	color: #33ffb4;
+	color: #999;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
