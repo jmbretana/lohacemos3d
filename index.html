@@ -28,13 +28,6 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: KnightOne - v4.0.1
-  * Template URL: https://bootstrapmade.com/knight-simple-one-page-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -100,15 +93,15 @@
         </div>
 
         <div class="row portfolio-container">
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-munecos">
             <img src="assets/img/works/yoda.jpeg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Yoda</h4>
-              <p>Muñecos</p>
+              <p>13 cm - $950</p>
               <a href="assets/img/works/yoda.jpeg" data-gallery="portfolioGallery"
                 class="portfolio-lightbox preview-link" title="Perros Meme"><i class="bx bx-search"></i></a>
-              <a href="#contact" class="details-link" title="Quiero"><i class="bx bx-plus"></i></a>
+              <a href="#contact" class="details-link" title="Quiero" data-bs-toggle="modal"
+                data-bs-target="#exampleModal"><i class="bx bx-plus"></i></a>
             </div>
           </div>
 
@@ -138,7 +131,7 @@
             <img src="assets/img/works/groot.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Groot</h4>
-              <p>Muñecos</p>
+              <p>11 cm - $750</p>
               <a href="assets/img/works/groot.png" data-gallery="portfolioGallery"
                 class="portfolio-lightbox preview-link" title="Groot"><i class="bx bx-search"></i></a>
               <a href="#contact" class="details-link" title="Quiero"><i class="bx bx-plus"></i></a>
@@ -298,7 +291,6 @@
 
       </div>
     </section><!-- End Contact Section -->
-
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -324,17 +316,20 @@
   <button type="button" class="btn back-whatsapp" id="enviarWhats"><i class="bi bi-whatsapp"></i>
   </button>
 
-  <!-- Modal Whatsapp -->
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog modal-sm" role="document">
+  <!-- Modal Carrito -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title" id="myModalLabel"><i class="fa fa-whatsapp"></i> Contactanos</h4>
+          <h5 class="modal-title" id="exampleModalLabel">Lista de compras</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <label>Tu nombre:</label>
-          <input type="text" id="textoWhats">
-          <button type="button" class="btn btn-success" id="enviarWhatsMensaje">Enviar</button>
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-grey" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary btn-brown">Pedir</button>
         </div>
       </div>
     </div>

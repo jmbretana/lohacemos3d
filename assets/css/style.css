@@ -180,6 +180,36 @@ h6 {
 	}
 }
 
+.btn-brown {
+	background: #5e2a11;
+	color: #fff;
+	border-radius: 50px;
+	padding: 8px 40px;
+	white-space: nowrap;
+	transition: 0.3s;
+	font-size: 14px;
+	border: 0;
+}
+
+.btn-brown:hover {
+	background: #00b371;
+}
+
+.btn-grey {
+	background: #aaa;
+	color: #fff;
+	border-radius: 50px;
+	padding: 8px 15px;
+	white-space: nowrap;
+	transition: 0.3s;
+	font-size: 14px;
+	border: 0;
+}
+
+.btn-grey:hover {
+	background: #666;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
